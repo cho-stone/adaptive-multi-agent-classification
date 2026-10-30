@@ -218,6 +218,10 @@ Agent 1 achieved the highest validation performance, reaching approximately **0.
 
 The other agents also learned successfully, although their performance differed due to their architectures and the subsets of data they encountered.
 
+<p align="center">
+  <img src="images/validation_performance.png" width="850">
+</p>
+
 ### Train and Test Accuracy
 
 | Agent | Train Accuracy | Test Accuracy |
@@ -227,11 +231,19 @@ The other agents also learned successfully, although their performance differed 
 | Agent 3 | 0.6807 | 0.6630 |
 | Agent 4 | 0.7118 | 0.6870 |
 
+<p align="center">
+  <img src="images/train_test_accuracy.png" width="700">
+</p>
+
 The overall multi-agent classification accuracy was:
 
 ```text
 Overall Test Accuracy: 0.7634
 ```
+
+<p align="center">
+  <img src="images/sample_predictions.png" width="900">
+</p>
 
 The final prediction for each sample was selected from the agent with the highest confidence.
 
